@@ -1,0 +1,2 @@
+docker pull alpine
+docker run -i -t --rm alpine:latest

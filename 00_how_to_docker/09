@@ -1,0 +1,4 @@
+apt-get -qq update
+apt-get -qq -y install gcc
+apt-get -qq -y install vim
+apt-get -qq -y install git
