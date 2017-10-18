@@ -1,0 +1,2 @@
+docker pull nginx
+docker run -d --name=overlord nginx:latest
