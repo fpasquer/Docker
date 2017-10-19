@@ -1,0 +1,1 @@
+docker network create --opt encrypted --driver overlay --attachable overmind
