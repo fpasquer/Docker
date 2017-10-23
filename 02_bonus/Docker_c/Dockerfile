@@ -11,6 +11,7 @@ RUN apt-get -qq -y install zsh
 RUN apt-get -qq -y install curl
 RUN apt-get -qq -y install python3
 RUN apt-get -qq -y install xterm
+RUN apt-get -qq -y install make
 RUN zsh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" || true
 RUN curl http://install.sublivim.com | sh
 RUN ln -f /bin/zsh /bin/sh
