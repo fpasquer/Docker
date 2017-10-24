@@ -5,10 +5,9 @@ RUN apt-get update &&\
 	apt-get -qq -y install make &&\
 	apt-get -qq -y install gcc
 
-ADD srcs/ /home
+ADD bin/ /home
 
 WORKDIR /home/
 
-RUN make -C libft libft64
-RUN gcc -Wall -Wextra -Werror *.c libft/libft.a
+RUN make
 CMD ["./a.out"]
